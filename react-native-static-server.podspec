@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author         = package['author']
   s.homepage       = package['homepage']
   s.source         = { :git => 'https://github.com/futurepress/react-native-static-server.git' }
-
+  s.dependency 'React'
   s.requires_arc   = true
   s.platform       = :ios, '7.0'
 
